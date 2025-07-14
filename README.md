@@ -115,8 +115,8 @@ If you use NuclearAI in your research, please cite:
 @software{nuclearai,
   author = {Amir Hossein Rasti},
   title = {NuclearAI: AI-Guided Nuclear Waste Transmutation Network},
-  year = {2024},
-  url = {https://github.com/yourusername/nuclearai}
+  year = {2025},
+  url = {https://github.com/boyyey/nuclearai}
 }
 ```
 
