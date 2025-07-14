@@ -1,0 +1,8 @@
+torch>=2.0.0
+torch-geometric>=2.3.0
+numpy>=1.24.0
+networkx>=3.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+openmc>=0.13.0
+# For MCNP/Serpent integration, these are placeholders; real integration may require custom wrappers or subprocess 

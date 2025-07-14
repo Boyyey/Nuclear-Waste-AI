@@ -1,0 +1,28 @@
+# Example scenario for nuclearai batch experiments
+isotopes:
+  - name: U-238
+    Z: 92
+    A: 238
+    half_life: 4.468e9
+    radiotox: 0.5
+    decay_heat: 0.01
+    cross_sections:
+      n,gamma: 2.7
+  - name: Pu-239
+    Z: 94
+    A: 239
+    half_life: 2.41e4
+    radiotox: 100
+    decay_heat: 1.9
+    cross_sections:
+      fission: 742
+reactions:
+  - from_iso: U-238
+    to_iso: Pu-239
+    reaction_type: n,gamma
+objectives:
+  - radiotox
+  - decay_heat
+constraints:
+  max_time: 1000
+  max_flux: 1e15 
